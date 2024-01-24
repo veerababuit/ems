@@ -3,6 +3,7 @@ import EmpList from './EmpList'
 import EmpListTable from './EmpListTable'
 import Count from './Count'
 import UseContext from './UseContext'
+import UseReducer from './UseReducer'
 
 const Home = () => {
   return (
@@ -10,7 +11,9 @@ const Home = () => {
       {/* <EmpList /> */}
       {/* <EmpListTable /> */}
       {/* <Count/> */}
-      <UseContext />
+      {/* <UseContext /> */}
+
+      <UseReducer />
     </div>
   )
 }
